@@ -4,7 +4,7 @@ body{
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-image: url("c.jpg");
+  background-image: url(c.jpg);
 }
 
 #calculator{
@@ -17,6 +17,7 @@ body{
   border-radius: 15px;
   max-width:1000px;
   overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 #display{
   width: 500px;
@@ -25,7 +26,8 @@ body{
   text-align:left;
   border: none;
   background-image:url("hellokitty.jpg");
-  color: rgba(83, 5, 41, 0.966);
+  color: rgb(0, 0, 0);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 
 #keys{
@@ -45,7 +47,7 @@ button{
   font-size: 3rem;
   font-weight: bold;
   cursor: pointer;
-
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 
 }
 
@@ -58,6 +60,7 @@ button:active{
 }
 .operator-btn{
   background-color: rgb(226, 43, 119);
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
 .operator-btn:active{
